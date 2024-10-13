@@ -1,11 +1,12 @@
-// src/components/Header.js
 import React from 'react';
 import './Header.css';
 
 function Header() {
   return (
     <header className="header">
-      <div className="logo">Raj Marketing</div>
+      <div className="logo">
+        <h1 style={{ color: '#FF0000' }}>Raj Marketing</h1>
+      </div>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
