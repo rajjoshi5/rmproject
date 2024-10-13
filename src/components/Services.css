@@ -1,0 +1,29 @@
+/* Services.css */
+.services {
+  background-color: #ffffff;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  flex-basis: calc(33.333% - 20px);
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.service-item h3 {
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .service-item {
+    flex-basis: 100%;
+  }
+}

@@ -1,0 +1,29 @@
+/* Contact.css */
+.contact {
+  background-color: #ffffff;
+}
+
+.contact h2 {
+  color: #007bff;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  width: 100%;
+}
